@@ -2,7 +2,7 @@ defmodule Timer do
   use GenServer
  
   def init(num) do
-		time_info()		
+	time_info()		
     {:ok, {num, :start}}
   end
   
